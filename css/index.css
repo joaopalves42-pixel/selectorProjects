@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+#cabecalho{
+    height: 15vh;
+    width: 100vw;
+}
+
+.corPreto{
+    background-image: linear-gradient(to right, #1600ff, #006aff, #0099ff, #00bfff, #00dfff);
+}
+    .corPreto a{
+    color: white;
+}
+.corPreto a:hover{
+    color: orange
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#paginal{
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
